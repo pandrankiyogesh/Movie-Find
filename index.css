@@ -1,0 +1,77 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+.fullbody
+{
+   background-color: black;
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+}
+.moviefind
+{
+    padding-top:10px;
+    
+    color:red;
+    width:100%;
+    height: 60px;
+    font-size:40px;
+    text-align:center;
+    font-weight: bold;
+}
+.movie{
+   display:flex;
+   align-items:center;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top:40px;
+}
+.moviedetails
+{
+    font-size:25px;
+    width:70%;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.clickmovie
+{
+    background-color: grey;
+    color:black;
+    padding:8px 8px;
+    border-radius: 2px;
+}
+.clickmovie:hover{
+    background-color:brown;
+}
+.moviecards
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:20px;
+}
+.card 
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:darkviolet;
+    width:600px;
+    height:300px;
+    padding:15px;
+}
+.movie-description
+{
+    padding-left:15px;
+    color:white;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.poster
+{
+    width:40%;
+}
